@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+   body{
+    background: url("https://thumbs.dreamstime.com/b/textured-old-paper-background-mountains-gran-canaria-48231025.jpg");
+   /*  margin-top: 150px;
+     margin-bottom: 100px;
+     margin-right: 150px;
+     margin-left: 80px; */
+    display: block;
+       position: fixed;
+       left: 25%;
+       
+     
+   }
+        .nav-link{
+            font-family: fantasy;
+            font-size: 12pt;
+            color: cadetblue;
+            margin-right: auto;
+        }
+        .products{
+            height: 150px;
+            width: 150px;
+            border-color: aqua;
+            border-width: thick;
+            border-style: solid;
+        }
+     .flexing{
+       display:flex;
+     }
+     @media(max-width:200px){
+              
+          }
+   #nav-bar{
+              position: fixed;
+              top:0px;
+              right:0px;
+          }
+    </style>
+    <body>
+        <header id="header">
+            <!--<h1>Disc Golf Store</h1>-->
+            <img id="header-img" style="height: 100px;" src="../Product Landing Page/dc-high.jpg"/>
+            <nav  id="nav-bar">
+            <a class="nav-link" href="#Discs">Discs</a>
+            <a class="nav-link" href="#Baskets">Baskets</a>
+            <a class="nav-link" href="#Miscs">Misc</a>    
+            </nav>
+        </header>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/t7_DtVjRKL8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <form id="form" action="https://www.freecodecamp.com/email-submit" >      <!--<form id="form" >-->    
+            <input name="email" id="email" type=email placeholder="Enter your email"/>
+            <input id="submit" type=submit value="Submit email" />
+        </form>
+ 
+        <h3>Disc Sets</h3>
+        <div id="Discs" class="flexing">
+            
+            
+            <div>
+                <img class="products" src="Discs/axiom.jpg"/>
+                <br/>
+                <caption>Axiom Starter Pack</caption>
+            </div>
+            <div>
+                <img class="products" src="Discs/mvpset2_1.jpg"/>
+                <br/>
+                <caption>MVP Starter Pack</caption>
+            </div>
+            <div>
+                <img class="products" src="Discs/streamline.jpg"/>
+                <br/>
+                <caption>Streamline Starter Pack</caption>
+            </div>
+        </div>
+        <h3>Baskets</h3>
+        <div id="Baskets" class="flexing">
+            
+            
+            <div>
+                <img class="products" src="Baskets/AxiomProBasket-lime.jpg"/>
+                <br/>
+                <caption>Axiom Practice Basket</caption>
+            </div>
+            <div>
+                <img class="products" src="Baskets/BlackHolePractice.png"/>
+                <br/>
+                <caption>MVP Practice Basket</caption>
+            </div>
+            <div>
+                <img class="products" src="Baskets/mach2.jpg"/>
+                <br/>
+                <caption>Mach II Practice Basket</caption>
+            </div>
+        </div>
+         <h3>Miscs</h3>
+        <div id="Miscs" class="flexing">
+            
+            
+            <div>
+                <img class="products" src="misc/discraft%20bottle.jpg"/>
+                <br/>
+                <caption>Disc Golf Water Bottle</caption>
+            </div>
+            <div>
+                <img class="products" src="misc/towel.jpg"/>
+                <br/>
+                <caption>Handeye Towel</caption>
+            </div>
+            <div>
+                <img class="products" src="misc/birdie%20bag.jpg" />
+                <br/>
+                <caption>Birdie Bag</caption>
+            </div>
+        </div>
+      
+    </body>
+</html>
